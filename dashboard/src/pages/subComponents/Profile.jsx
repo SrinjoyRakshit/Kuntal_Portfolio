@@ -31,6 +31,7 @@ const Profile = () => {
               <img 
                 src={user && user.resume && user.resume.url} 
                 alt="" 
+                accept=""
                 className="w-full h-auto sm:w-72 sm:h-72 rounded-2xl"  
               />
             </div>
